@@ -1,10 +1,10 @@
 // scripts.js file
 
 
-var a = prompt('Enter value a'); 
+var a = prompt('Enter value a'),
 	h = prompt ('Enter value h'); 
 
-var triangleArea = (a * h /2);
+var triangleArea = a * h /2;
 
 alert('Triangle Area is: ' + triangleArea);
 
